@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="line1">
+    <LineStyle>
+      <color>FF00FF00</color>
+      <width>1</width>
+    </LineStyle>
+    <IconStyle><Icon></Icon></IconStyle>
+  </Style>
+  <Style id="point1">
+    <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
+    <LabelStyle><color>ff333333</color></LabelStyle>
+  </Style>
+  <Folder>
+    <name>Point Features</name>
+    <description>Point Features</description>
+    <Placemark>
+      <description>VILLAGE NAME</description>
+      <name>DANDE TARF NANDGAON</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <coordinates>72.9089599164,18.4125526806,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line1</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.9198613379,18.4100450740,0
+          72.9205884059,18.4084335190,0
+          72.9199493309,18.4076972520,0
+          72.9196166489,18.4070294270,0
+          72.9181358579,18.4067249430,0
+          72.9172767799,18.4058227540,0
+          72.9172576869,18.4055680850,0
+          72.9167903759,18.4053476440,0
+          72.9145081409,18.4053740460,0
+          72.9137727009,18.4046926240,0
+          72.9136107429,18.4042839400,0
+          72.9132464059,18.4041570760,0
+          72.9127315789,18.4036224000,0
+          72.9120649339,18.4035418160,0
+          72.9109358979,18.4029713050,0
+          72.9106942059,18.4033383440,0
+          72.9096609939,18.4038881650,0
+          72.9094598749,18.4037148130,0
+          72.9091120459,18.4034150040,0
+          72.9082532769,18.4030041260,0
+          72.9071390859,18.4029426150,0
+          72.9067603929,18.4065005680,0
+          72.9062779419,18.4112814900,0
+          72.9070213869,18.4123854410,0
+          72.9080891849,18.4138728750,0
+          72.9079990999,18.4167279050,0
+          72.9083666339,18.4176731130,0
+          72.9096920539,18.4221483970,0
+          72.9098756069,18.4222661070,0
+          72.9101983579,18.4224001120,0
+          72.9126429449,18.4228674340,0
+          72.9143994459,18.4223488470,0
+          72.9164082369,18.4190388590,0
+          72.9166475569,18.4165418710,0
+          72.9178210449,18.4145679740,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line1</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.9204219599,18.4138720930,0
+          72.9191609389,18.4137469470,0
+          72.9198613379,18.4100450740,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line1</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.9178210449,18.4145679740,0
+          72.9204219599,18.4138720930,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
